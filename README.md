@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and deployed to [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
 ## Live Demo: 
  https://anrao91.github.io/cost-estimation-form/
