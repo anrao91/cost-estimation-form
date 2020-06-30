@@ -12,3 +12,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+:root {
+  --primary-color: #3c8fc4;
+  --primary-light-color: #56a9de;
+  --primary-lighter-color: #6fc2f7;
+  --primary-lightest-color: #89dcff;
+  --secondary-color: #000;
+  --secondary-light-color: #949494;
+  --secondary-lighter-color: #aeaeae;
+  --secondary-lightest-color: #c7c7c7;
+  --radio-button-color: #6eac48;
+}

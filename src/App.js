@@ -1,11 +1,10 @@
 import React from "react";
 
-import CostEstimationForm from "./pages/CostEstimation";
-
+import Dashboard from "./components/ui-components/Dashboard";
 function App() {
   return (
     <div className="container">
-      <CostEstimationForm />
+      <Dashboard />
     </div>
   );
 }
