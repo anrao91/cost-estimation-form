@@ -117,6 +117,7 @@ export default () => {
           <Form.Item
             name="city"
             label="Choose a city"
+            initialValue={"Bengaluru"}
             hasFeedback
             rules={[
               {
@@ -126,7 +127,6 @@ export default () => {
             ]}
           >
             <AutoComplete
-              defaultValue={"Bengaluru"}
               options={cities_options}
               placeholder="Please enter the city name.."
               filterOption={(inputValue, option) =>
