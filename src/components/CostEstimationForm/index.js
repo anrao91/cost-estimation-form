@@ -38,12 +38,7 @@ export default () => {
   const [totalEstimation, setTotalEstimation] = useState(0);
   const [totalPaintableArea, setTotalPaintableArea] = useState("0 sqft");
   const [paintableAreaType, setPaintableAreaType] = useState("Interior Walls");
-  const validateInput = (event) => {
-    var charC = event.which ? event.which : event.keyCode;
-    if (charC > 31 && (charC < 48 || charC > 57)) {
-      event.preventDefault();
-    }
-  };
+
   const handleSubmit = (formValues) => {
     setLoading(true);
     const { carpet_area, location_type, paint_area, paint_type } = formValues;
@@ -97,6 +92,13 @@ export default () => {
     }
   };
 
+  const validateInput = (event) => {
+    var charC = event.which ? event.which : event.keyCode;
+    if (charC > 31 && (charC < 48 || charC > 57)) {
+      event.preventDefault();
+    }
+  };
+
   return (
     <div>
       {submitted ? (
@@ -124,6 +126,7 @@ export default () => {
             ]}
           >
             <AutoComplete
+              defaultValue={"Bengaluru"}
               options={cities_options}
               placeholder="Please enter the city name.."
               filterOption={(inputValue, option) =>
