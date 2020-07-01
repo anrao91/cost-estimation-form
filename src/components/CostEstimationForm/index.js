@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 
-import {
-  AutoComplete,
-  Form,
-  Select,
-  Radio,
-  Button,
-  Input,
-  message,
-} from "antd";
+import { AutoComplete, Form, Radio, Button, Input, message } from "antd";
 
 import { capitalize } from "../../utils";
 import { paintLocationDetails, cities } from "../../fixtures";
@@ -45,7 +37,11 @@ export default () => {
     setTimeout(() => {
       setTotalEstimation(`Rs. ${carpet_area * 9}`);
       setTotalPaintableArea(`${carpet_area} sqft`);
-      setPaintableAreaType(`${location_type} ${paint_area}, ${paint_type}`);
+      setPaintableAreaType(
+        `${capitalize(location_type)} ${capitalize(paint_area)}, ${capitalize(
+          paint_type
+        )}`
+      );
       form.resetFields();
       setLoading(false);
       setSubmitted(true);
