@@ -1,0 +1,95 @@
+@import "../../index.css";
+.cost-estimation-title {
+  text-align: center;
+}
+
+.ant-card-body {
+  padding-top: 0;
+}
+
+.cost-estimation-title p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #545454;
+  margin: 0;
+}
+
+.cost-estimation-card {
+}
+
+.cost-estimation-card .paint-cost-estimation {
+  color: #fff;
+  background-color: #7fb742;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cost-estimation-card .paint-area-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cost-estimation-card .paint-area-details span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #414141;
+}
+
+.cost-estimation-card .paintable-area,
+.cost-estimation-card .paintable-cost {
+  padding: 15px 10px 10px;
+  border-bottom: 1px solid #979797;
+}
+
+.gutter-row {
+  margin: 4px 0;
+}
+
+.gutter-row:last-child {
+  text-align: right;
+}
+
+.cost-estimation-card .paintable-cost .gutter-row p {
+  margin: 0;
+}
+
+.cost-estimation-card .paintable-cost .gutter-row .sub-text {
+  font-size: 11px;
+  color: #414141!;
+}
+
+.cost-estimation-card .go-back-button-wrapper {
+  text-align: center;
+  padding: 10px 0;
+}
+/* 
+.cost-estimation-card .go-back-button-wrapper .primary-in-app-button {
+  border-radius: 5px;
+  background-color: #f37373;
+  line-height: 1.15;
+  padding: 4px 50px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 5px;
+  border: 0;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+} */
+
+.cost-estimation-card .inclusion-details {
+  padding: 5px 20px;
+}
+
+.cost-estimation-card .inclusion-details ul {
+  padding-left: 20px;
+  border-bottom: 1px solid #cbcbcb;
+  padding-bottom: 15px;
+}
+
+.cost-estimation-card .disclaimer {
+  font-size: 10px;
+  font-weight: 300;
+}

@@ -5,7 +5,7 @@ import "./Dashboard.css";
 
 import Header from "../Header";
 import Footer from "../Footer";
-import CostEstimationForm from "../../CostEstimation";
+import CostEstimationForm from "../../CostEstimationForm";
 
 const { Content } = Layout;
 
