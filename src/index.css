@@ -23,7 +23,9 @@ code {
   --radio-button-color: #6eac48;
 }
 
-.primary-in-app-button {
+.primary-in-app-button,
+.primary-in-app-button:active,
+.primary-in-app-button:focus {
   border-radius: 5px;
   background-color: #f37373;
   line-height: 1.15;
@@ -35,6 +37,12 @@ code {
   font-weight: 700;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.primary-in-app-button:hover {
+  background-color: #fff;
+  color: #f9b9b9;
+  border: 0.5px solid #f9b9b9;
 }
 
 .align-center {

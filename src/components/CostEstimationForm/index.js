@@ -14,7 +14,7 @@ import { capitalize } from "../../utils";
 import { paintLocationDetails, cities } from "../../fixtures";
 import CostEstimationResult from "../CostEstimationResult";
 
-import "./CostEstimation.css";
+import "./CostEstimationForm.css";
 
 export default () => {
   const cities_options = cities.map((city) => ({ value: city }));
