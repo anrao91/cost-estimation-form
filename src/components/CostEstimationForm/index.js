@@ -55,7 +55,7 @@ export default () => {
 
   const handleFailure = (errorInfo) => {
     setLoading(false);
-    message.error("Something went wrong, Please try again later...");
+    message.error("Please fill in all the required data and try again...");
     console.log("Failed:", errorInfo);
   };
 
@@ -156,7 +156,10 @@ export default () => {
               },
             ]}
           >
-            <Input onKeyPress={validateInput} />
+            <Input
+              placeholder={"Enter Carpet Area"}
+              onKeyPress={validateInput}
+            />
           </Form.Item>
           <Form.Item
             name="location_type"
