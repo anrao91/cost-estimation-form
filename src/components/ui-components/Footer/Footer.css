@@ -1,5 +1,4 @@
-.header-section h3 {
-  font-size: 30px;
-  letter-spacing: 1px;
-  font-weight: 700;
+.footer-section {
+  text-align: right;
+  padding: 24px 0;
 }

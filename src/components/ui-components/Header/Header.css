@@ -1,6 +1,15 @@
+.header-section {
+  padding: 0;
+}
 .header-section h3 {
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 700;
   color: #fff;
+}
+
+.header-section h3 span .calc-img {
+  width: 32px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
 }
